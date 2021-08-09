@@ -19,6 +19,10 @@ public class LineComparsion {
 		Double LineLength2 = (Math.sqrt(Math.pow((L2x2 - L2x1),2)) + (Math.pow((L2y2 - L2y1),2)));
 		
 		System.out.println(" Checking Equality of LineLength1 " + LineLength1 + " and LineLength2 " + LineLength2 + " : " +LineLength1.equals(LineLength2));
+		
+		System.out.println(" Comparing LineLength1 " + LineLength1 + " and LineLength2 " + LineLength2 + " : " +LineLength1.compareTo(LineLength2));
+		
+		
 
 }
 }
